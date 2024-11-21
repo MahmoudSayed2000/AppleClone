@@ -1,0 +1,604 @@
+/* Made By Mahmoud Mohamed Sayed Ahmed */
+
+/* Body border */
+body
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Fixing Float ClR */
+.Clear-fix
+{
+    clear: both;
+}
+
+/* Container */
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+/* Button Hover */
+.iMac-content a:hover,.header-content a:hover,.macmini-content a:hover,.iPad-content a:hover,.watch-content a:hover,.macbook-content a:hover,.tv-content a:hover,#tryit:hover
+{
+    background-color: #0077ED;
+}
+/* Navbar Hover */
+/* Header Div */
+
+.header
+{
+    background-image: url(https://www.apple.com/v/home/bv/images/heroes/macbook-pro-enhanced/hero_macbookpro_announce__f7vm5bnswsae_largetall.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 81vh;
+    margin-bottom: 10px;
+}
+.navbar
+{
+    background-color: #161617;
+}
+.header-content
+{
+    text-align: center;
+    color: #F5F5F7;
+    padding-top: 20px;
+    background-color: black;
+    background-image: url(https://www.apple.com/v/home/bv/images/heroes/macbook-pro-enhanced/hero_macbookpro_announce__f7vm5bnswsae_largetall.jpg);
+}
+.header-content h1
+{
+    font-size: 55px;
+}
+.header-content h3
+{
+    font-size: 25px;
+    margin-bottom: 20;
+}
+.header-content h1,h3
+{
+    margin: 5px;
+}
+.icon
+{
+    color: #FF305B;
+    float: left;
+    font-size: 30px;
+    font-family: 1000px;
+    padding-top: 10px;
+}
+#icon
+{
+    color: #D0D0D1;
+    text-decoration: none;
+    padding: 20 15px;
+    font-size: 16px;
+}
+.list
+{
+    
+
+}
+#glass
+{
+    color: #D0D0D1;
+    text-decoration: none;
+    padding: 20 15px;
+    font-size: 15px;
+}
+.list li
+{
+    display: inline-block;
+    padding: 16 30px 15 30;
+    font-size: 11px;
+}
+.header .navbar .list a
+{
+    text-decoration: none;
+    color: #B6B6B7;
+}
+.header-content a
+{
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    border-radius: 950px;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #0071e3;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    text-decoration: none;
+}
+/* Mac Mini Section */
+.macmini
+{
+    background-image: url(images/macmini.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 81vh;
+    margin-bottom: 10px;
+}
+.macmini-content a
+{
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    border-radius: 950px;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #0071e3;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    text-decoration: none;
+}
+.macmini-content
+{
+    text-align: center;
+    padding-top: 20px;
+    background-color: white;
+    background-image: url(images/macmini.jpg);
+}
+.macmini-content h3
+{
+    font-size: 55px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.macmini-content p
+{
+    font-size: 25px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.macmini-content h1,h3
+{
+    margin: 5px;
+}
+/* iMac Section */
+.iMac
+{
+    background-image: url(images/iMac.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 81vh;
+    margin-bottom: 10px;
+}
+.iMac-content a
+{
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    border-radius: 950px;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #0071e3;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    text-decoration: none;
+}
+.iMac-content
+{
+    text-align: center;
+    padding-top: 20px;
+    background-color: white;
+    background-image: url(images/iMac.jpg);
+}
+.iMac-content h3
+{
+    font-size: 55px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.iMac-content p
+{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.iMac-content h3
+{
+    margin: 5px;
+}
+.iMac-content span
+{
+    letter-spacing: 0;
+}
+/* Section 4 Watch content */
+.section4
+{
+    display: flex;
+    justify-content: space-between;
+    height: 81vh;
+}
+.watch,.iPad
+{
+    height: 500px;
+    padding: 50px 0 10px 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 49%;
+}
+/* watch */
+.watch
+{
+    background-image: url(images/watch.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    margin-top: 0px;
+}
+.watch-content a
+{
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    border-radius: 950px;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #0071e3;
+    font-size: 14px;
+    line-height: 1.17648;
+    font-weight: 400;
+    text-decoration: none;
+}
+.watch-content
+{
+    text-align: center;
+    background-color: transparent;
+    padding-bottom: 400px;
+}
+#icon-watch
+{
+    color: black;
+}
+#series10
+{
+    margin: 0px;
+}
+.watch-content h3
+{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.watch-content p
+{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.watch-content h3
+{
+    margin: 5px;
+}
+.watch-content span
+{
+    letter-spacing: 0;
+}
+/* iPad */
+.iPad
+{
+    background-image: url(images/iPad.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    margin-top: 0px;
+}
+.iPad-content a
+{
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    border-radius: 950px;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #0071e3;
+    font-size: 14px;
+    line-height: 1.17648;
+    font-weight: 400;
+    text-decoration: none;
+}
+.iPad-content
+{
+    text-align: center;
+    background-color: transparent;
+    padding-bottom: 400px;
+}
+.iPad-content h3
+{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.iPad-content p
+{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.iPad-content h3
+{
+    margin: 5px;
+}
+.iPad-content span
+{
+    letter-spacing: 0;
+}
+
+/* Section 5 */
+.section5
+{
+    display: flex;
+    justify-content: space-between;
+    height: 81vh;
+}
+.macbook,.tv
+{
+    height: 500px;
+    padding: 50px 0 10px 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 49%;
+}
+/* macbook */
+.macbook
+{
+    background-image: url(images/macbook.jpg);
+    background-size: contain;
+    background-position: center center;
+    text-align: center;
+    margin-top: 0px;
+}
+.macbook-content a
+{
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    border-radius: 950px;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #0071e3;
+    font-size: 14px;
+    line-height: 1.17648;
+    font-weight: 400;
+    text-decoration: none;
+}
+.macbook-content
+{
+    text-align: center;
+    background-color: transparent;
+    padding-bottom: 400px;
+}
+.macbook-content h3
+{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.macbook-content p
+{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.macbook-content h3
+{
+    margin: 5px;
+}
+/* tv */
+.tv
+{
+    /* background-image: url(images/tv.jpg); */
+    background-size: auto;
+    background-position: center center;
+    text-align: center;
+    margin-top: 0px;
+    background-color: black;
+}
+.tv img
+{
+    width: 100%;
+    height: 400px;
+}
+.tv-content a
+{
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    border-radius: 950px;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #0071e3;
+    font-size: 14px;
+    line-height: 1.17648;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 15;
+}
+#tryit
+{
+    background-color: transparent;
+    border-color: #0071e3;
+}
+.tv-content
+{
+    text-align: center;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 300px;
+    color: white;
+}
+.tv-content p
+{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 75px;
+}
+/* footer */
+.footer
+{
+    text-align: center;
+    margin-top: 0px;
+    background-color: #F5F5F7;
+}
+.footer-content
+{
+    width: 70%;
+    margin: auto;
+}
+.first p,a
+{
+    font-size: 13px;
+    color: #878788;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    
+}
+.second
+{
+    display: flex;
+    justify-content: space-between;
+    line-height: 25px;
+}
+.second p
+{
+    font-size: 12px;
+}
+.second li
+{
+    list-style-type: none;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0px;
+}
+.column2
+{
+    text-align: left;
+}
+.column2 li
+{
+    padding: 0px;
+}
+.column3
+{
+    text-align: left;
+}
+.column3 li
+{
+    padding: 0px;
+}
+.column4
+{
+    text-align: left;
+}
+.column4 li
+{
+    padding: 0px;
+}
+#retailer
+{
+    text-align: left;
+    color: #878788;
+}
+#retailer a
+{
+    padding-left: 20px;
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.third
+{
+    display: flex;
+}
+.third ul
+{
+    display: inline-block;
+}
+.third p
+{
+    font-size: 12px;
+    color: #878788;
+}
+#policy
+{
+    padding-left: 100px;
+    padding-right: 10px;
+}
+#terms
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#site
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#egypt
+{
+    padding-left: 300px;
+    padding-right: 10px;
+}
+#araby
+{
+    padding-left: 10px;
+}
+.footer a
+{
+    text-decoration: none;
+}
+.footer a:hover
+{
+    text-decoration: underline;
+}
